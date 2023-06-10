@@ -62,6 +62,7 @@ default = {
         "psychology.misc": True,
         "redundancy.misc": True,
         "redundancy.ras_syndrome": True,
+        "redundancy.flab": True,
         "skunked_terms.misc": True,
         "spelling.able_atable": True,
         "spelling.able_ible": True,
