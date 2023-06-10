@@ -58,6 +58,7 @@ def check_garner(text):
         ["cooperation",       ["mutual cooperation"]],
         ["couple",            ["couple together"]],
         ["crisis",            ["serious crisis"]],
+        ["done",              ["previously done"]],
         ["eliminate",         ["entirely eliminate"]],
         ["especially",        ["most especially"]],
         ["fact",              ["actual fact"]],
@@ -114,6 +115,7 @@ def check_garner(text):
         ["veteran",           ["former veteran"]],
         ["visible",           ["visible to the eye"]],
         ["vocation",          ["professional vocation"]],
+        ["working",           ["currently working"]],
         ["while",             ["while at the same time"]],
     ]
 
@@ -146,7 +148,7 @@ def check_atd(text):
     msg = "Redundancy. Use '{}' instead of '{}'."
 
     redundancies = [
-        ["Bō",               ["Bo Staff"]],
+        ["Bō",                ["Bo Staff"]],
         ["Challah",           ["Challah bread"]],
         ["Hallah",            ["Hallah bread"]],
         ["Challah",           ["Challah bread"]],
@@ -172,6 +174,9 @@ def check_atd(text):
         ["autumn",            ["autumn season"]],
         ["bald",              ["bald-headed"]],
         ["balsa",             ["balsa wood"]],
+        ["because",           ["due to the fact that"]],
+        ["began",             ["first began"]],
+        ["begin",             ["first begin"]],
         ["belongings",        ["personal belongings"]],
         ["benefits",          ["desirable benefits"]],
         ["bento",             ["bento box"]],
@@ -271,6 +276,7 @@ def check_atd(text):
         ["etc.",              ["and etc."]],
         ["evolve",            ["evolve over time"]],
         ["exaggerate",        ["over exaggerate"]],
+        ["existing",          ["already existing"]],
         ["exited",            ["exited from"]],
         ["experience",        ["actual experience", "past experience"]],
         ["experts",           ["knowledgeable experts"]],

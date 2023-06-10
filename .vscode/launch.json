@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pytest Debug Weasel Words",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/test_weasel_words_misc.py"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Pytest Debug Very",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/test_weasel_words_very.py"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Pytest Debug Tools",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/test_tools.py"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
