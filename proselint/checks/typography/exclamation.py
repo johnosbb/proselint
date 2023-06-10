@@ -33,7 +33,7 @@ def check_repeated_exclamations(text):
 def check_exclamations_ppm(text):
     """Make sure that the exclamation ppm is under 30."""
     err = "leonard.exclamation.30ppm"
-    msg = "More than 30 ppm of exclamations. Keep them under control."
+    msg = "Try to minimise the use of exclamations."
 
     regex = r"\w!"
 

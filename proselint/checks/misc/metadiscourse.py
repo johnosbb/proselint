@@ -19,7 +19,7 @@ from proselint.tools import existence_check, memoize
 def check(text):
     """Suggest the preferred forms."""
     err = "pinker.metadiscourse"
-    msg = "Excessive metadiscourse."
+    msg = "Metadiscourse detected in this sentence. Metadiscourse is an umbrella term for words used by a writer or speaker to mark the direction and purpose of a text."
 
     metadiscourse = [
         "The preceeding discussion",

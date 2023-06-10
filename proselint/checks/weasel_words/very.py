@@ -21,9 +21,7 @@ from proselint.tools import existence_check, max_errors, memoize
 def check(text):
     """Avoid 'very'."""
     err = "weasel_words.very"
-    msg = ("Substitute 'damn' every time you're "
-           "inclined to write 'very'; your editor will delete it "
-           "and the writing will be just as it should be.")
+    msg = ("Try to minimise the use of the word 'very'")
     regex = "very"
 
     return existence_check(text, [regex], err, msg)
